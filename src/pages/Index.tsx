@@ -44,7 +44,6 @@ const Index = () => {
             >
               ADS library
             </a> for the list of the publications I co-authored.
->>>>>>> d661651e778a18053a151d2ccf959a51253a1289
           </p>
         </div>
       </section>
