@@ -38,9 +38,14 @@ const Index = () => {
             Welcome to my website! I am an astrophysicist interested in galactic dynamics and numerical simulations.
             Currently I am a postdoc in the GaiaUB group at the Institut de Ciències del Cosmos - Universitat de Barcelona.
             You will find my publications in this 
-            <a href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FRO7hi4tGRIO3jE0VTM-gDA)&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" rel="noopener noreferrer">
-             ADS library</a>.
-            
+            <a 
+              href="https://ui.adsabs.harvard.edu/search/q=docs(library%2FRO7hi4tGRIO3jE0VTM-gDA)&sort=date%20desc%2C%20bibcode%20desc&p_=0" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center mx-1 text-primary hover:text-primary-dark underline decoration-2 decoration-primary/30 hover:decoration-primary transition-colors"
+            >
+              ADS library
+            </a>.
           </p>
         </div>
       </section>
