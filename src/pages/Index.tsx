@@ -1,26 +1,8 @@
 
 import Navigation from "@/components/Navigation";
-import PublicationCard from "@/components/PublicationCard";
 import { Mail, Github, Linkedin } from "lucide-react";
 
 const Index = () => {
-  const publications = [
-    {
-      title: "Understanding Complex Networks through Deep Learning Approaches",
-      authors: "Your Name, Collaborator One, Collaborator Two",
-      journal: "Journal of Network Science",
-      year: "2023",
-      link: "#",
-    },
-    {
-      title: "Novel Applications of Machine Learning in Academic Research",
-      authors: "Your Name, Another Collaborator",
-      journal: "Advanced Computing Systems",
-      year: "2022",
-      link: "#",
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-neutral-50">
       <Navigation />
@@ -58,21 +40,8 @@ const Index = () => {
             {["Machine Learning", "Complex Networks", "Data Science", "Artificial Intelligence"].map((interest) => (
               <div key={interest} className="p-6 bg-neutral-50 rounded-lg border border-neutral-200">
                 <h3 className="text-lg font-semibold text-neutral-800">{interest}</h3>
+                <p className="mt-2 text-neutral-600">Work in progress...</p>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Publications */}
-      <section id="publications" className="py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-neutral-800 mb-8 text-center">
-            Publications
-          </h2>
-          <div className="space-y-6">
-            {publications.map((pub, index) => (
-              <PublicationCard key={index} {...pub} />
             ))}
           </div>
         </div>
