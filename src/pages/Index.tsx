@@ -29,15 +29,15 @@ const Index = () => {
       <section id="home" className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center animate-fade-up">
           <h1 className="text-4xl sm:text-5xl font-bold text-neutral-800 mb-6">
-            Your Name
+            Marcin Semczuk
           </h1>
           <p className="text-xl text-neutral-600 mb-8">
-            PhD Candidate in Computer Science
+            Postdoctoral researcher in astrophysics
           </p>
           <p className="text-neutral-600 leading-relaxed">
-            Researching the intersection of machine learning and complex systems at
-            Example University. Focused on developing novel approaches to understand
-            and optimize network dynamics.
+            Welcome to my website! I am an astrophysicist interested in galactic dynamics and numerical simulations.
+            Currently I am a postdoc in the GaiaUB group at the Institut de Ciències del Cosmos - Universitat de Barcelona.
+            You will find my publications in this ADS library.
           </p>
         </div>
       </section>
