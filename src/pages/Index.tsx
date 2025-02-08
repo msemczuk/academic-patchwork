@@ -36,13 +36,8 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-neutral-800 mb-8 text-center">
             Research Interests
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {["Machine Learning", "Complex Networks", "Data Science", "Artificial Intelligence"].map((interest) => (
-              <div key={interest} className="p-6 bg-neutral-50 rounded-lg border border-neutral-200">
-                <h3 className="text-lg font-semibold text-neutral-800">{interest}</h3>
-                <p className="mt-2 text-neutral-600">Work in progress...</p>
-              </div>
-            ))}
+          <div className="p-6 bg-neutral-50 rounded-lg border border-neutral-200">
+            <p className="text-neutral-600">Work in progress...</p>
           </div>
         </div>
       </section>
